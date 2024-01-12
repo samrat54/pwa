@@ -2,7 +2,7 @@
     "name": "Free Mind Maps",
     "short_name": "Mind Maps",
     "description": "Create and collaborate on mind maps for free.",
-    "start_url": "/",
+    "start_url": "https://samrat54.github.io/pwa",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#3498db",
