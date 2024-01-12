@@ -1,0 +1,17 @@
+{
+    "name": "Free Mind Maps",
+    "short_name": "Mind Maps",
+    "description": "Create and collaborate on mind maps for free.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3498db",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

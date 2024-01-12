@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free Mind Maps - Create and collaborate on mind maps for free.">
+  <link rel="icon" type="image/png" href="/path/to/favicon.png">
+
+
+  <!-- Add manifest file -->
+  <link rel="manifest" href="manifest.json">
+
+  <title>Free Mind Maps</title>
+</head>
+<body>
+  <!-- Your website content goes here -->
+  <!-- Add service worker registration script -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then((registration) => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch((error) => {
+          console.error('Service Worker registration failed:', error);
+        });
+    }
+  </script>
+</body>
+</html>
